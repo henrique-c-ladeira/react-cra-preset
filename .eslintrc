@@ -23,7 +23,12 @@
     ],
     "settings": {
         "import/resolver": {
-          "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+          "typescript": {}, // this loads <rootdir>/tsconfig.json to eslint
+            "babel-plugin-root-import":
+            {
+              "rootPathPrefix": "~",
+              "rootPathSuffix": "src"
+            }
         }
     },
     "rules": {
