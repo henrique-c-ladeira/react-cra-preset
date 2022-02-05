@@ -1,36 +1,14 @@
-import React from "react";
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import { Routes } from '~/Routes';
+import { theme } from '~/theme';
+import GlobalStyle from '~/GlobalStyle';
 
 const App: React.FC = () => (
-
-  <div className="App">
-    <header className="App-header">
-      <p>
-        Edit
-        {" "}
-        <code>src/App.tsx</code>
-        <code>src/App.tsx</code>
-        <code>src/App.tsx</code>
-        <code about="123" className="123" radioGroup="123" vocab="asd" spellCheck>
-          src/App.tsx
-        </code>
-        <code>
-          src/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsx
-        </code>
-        <code>src/App.tsx</code>
-        <code>src/App.tsx</code>
-        {" "}
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <Routes />
+  </ThemeProvider>
 );
 
 export default App;
