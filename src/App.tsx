@@ -1,23 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const App: React.FC = () => (
 
-
-  
   <div className="App">
     <header className="App-header">
       <p>
-        Edit <code>src/App.tsx</code>
+        Edit
+        {" "}
         <code>src/App.tsx</code>
         <code>src/App.tsx</code>
-        <code about="123" className="123" radioGroup="123" vocab="asd" spellCheck={true}>
+        <code>src/App.tsx</code>
+        <code about="123" className="123" radioGroup="123" vocab="asd" spellCheck>
           src/App.tsx
         </code>
         <code>
           src/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/Apprc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsxrc/App.tsx
         </code>
         <code>src/App.tsx</code>
-        <code>src/App.tsx</code> and save to reload.
+        <code>src/App.tsx</code>
+        {" "}
+        and save to reload.
       </p>
       <a
         className="App-link"
@@ -29,6 +31,6 @@ const App: React.FC = () => (
       </a>
     </header>
   </div>
-)
+);
 
-export default App
+export default App;
